@@ -1,12 +1,12 @@
 // src/App.jsx
 import { Routes, Route } from 'react-router-dom';
-import Layout from './components/layout';
-import HomePage from './pages/homePage';
-import ServicesPage from './pages/servicesPage';
-import CalculatorPage from './pages/calculatorPage';
-import PortfolioPage from './pages/portfolioPage';
-import ReviewsPage from './pages/revievsPage';
-import ContactsPage from './pages/contactsPage';
+import Layout from "./components/Layout";
+import HomePage from "./pages/HomePage";
+import ServicesPage from "./pages/ServicesPage";
+import CalculatorPage from "./pages/CalculatorPage";
+import PortfolioPage from "./pages/PortfolioPage";
+import ReviewsPage from "./pages/ReviewsPage";
+import ContactsPage from "./pages/ContactsPage";
 
 function App() {
   return (
