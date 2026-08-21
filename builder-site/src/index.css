@@ -347,3 +347,55 @@ body {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+:root {
+  --primary: #f97316;
+  --primary-dark: #ea580c;
+  --bg: #f9fafb;
+  --text: #1f2937;
+  --card-bg: #ffffff;
+  --radius: 12px;
+}
+
+/* Тёмная тема */
+body.dark {
+  --bg: #111827;
+  --text: #f9fafb;
+  --card-bg: #1f2937;
+  --primary: #fb923c;
+  --primary-dark: #f97316;
+}
+
+/* Также для header/footer */
+.dark .header {
+  background: #1f2937;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.dark .footer {
+  background: #0f172a;
+  color: #cbd5e1;
+}
+
+.dark .card,
+.dark .review-card,
+.dark .portfolio-card,
+.dark .calculator-form,
+.dark .contact-form {
+  background: var(--card-bg);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Кнопка переключения темы */
+.theme-toggle {
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.theme-toggle:hover {
+  color: var(--primary);
+}
